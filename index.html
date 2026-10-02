@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – Photo Moderation Assistant</title>
+  <style>
+    body {
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 24px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #202124;
+    }
+
+    h1, h2 {
+      color: #174ea6;
+    }
+
+    h1 {
+      border-bottom: 1px solid #dadce0;
+      padding-bottom: 14px;
+    }
+
+    .updated {
+      color: #5f6368;
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy – Photo Moderation Assistant</h1>
+  <p class="updated">Last updated: October 2, 2026</p>
+
+  <h2>Overview</h2>
+  <p>
+    Photo Moderation Assistant is an internal Chrome extension intended only
+    for authorized employees performing photo moderation and photo verification.
+    It operates exclusively on designated internal administration pages.
+  </p>
+
+  <h2>Data handled by the extension</h2>
+  <p>
+    To provide its moderation features, the extension may process the following
+    information displayed by the internal administration system:
+  </p>
+  <ul>
+    <li>Internal profile ID, nickname, email address, age and gender.</li>
+    <li>Profile country and registration country at country level only.</li>
+    <li>The moderation decision selected by the moderator and its timestamp.</li>
+    <li>Interface content required for keyboard shortcuts, navigation and decision history.</li>
+  </ul>
+
+  <p>
+    The extension does not access precise GPS location, financial information,
+    medical information, personal communications or passwords. It does not copy
+    or store users' photo files.
+  </p>
+
+  <h2>Local storage</h2>
+  <p>
+    The extension uses <code>chrome.storage.local</code> to store interface
+    settings, local counters and a short history of the last five processed
+    profiles. This information is used only to help moderators navigate between
+    recently processed profiles and correct an accidental decision.
+  </p>
+
+  <p>
+    Locally stored information remains in the moderator's browser and is not
+    transmitted to the extension developer or to external third parties.
+  </p>
+
+  <h2>Internal system access</h2>
+  <p>
+    The extension may request profile country information from the same internal
+    administration system at <code>admin.ddkit.io</code>. Such requests use the
+    moderator's existing authorized session and remain within the same internal
+    company system.
+  </p>
+
+  <p>
+    An existing session authorization value may be used temporarily in memory
+    for this same-origin request. It is not written to extension storage and is
+    never transmitted outside the internal administration system.
+  </p>
+
+  <h2>Data sharing and external services</h2>
+  <p>
+    The extension does not sell, transfer or disclose user data to advertisers,
+    data brokers or other third parties. It does not use analytics, advertising
+    services or external tracking services.
+  </p>
+
+  <p>
+    Data is not used for advertising, marketing, creditworthiness, lending or
+    any purpose unrelated to internal photo moderation and fraud prevention.
+  </p>
+
+  <h2>Limited Use</h2>
+  <p>
+    The use of information by Photo Moderation Assistant complies with the
+    Chrome Web Store User Data Policy, including the Limited Use requirements.
+    Information is used only to provide the extension's disclosed moderation
+    and verification functionality.
+  </p>
+
+  <h2>Data retention and removal</h2>
+  <p>
+    Only the last five processed profiles and temporary local statistics are
+    retained by the extension. This local information can be removed by clearing
+    the extension's storage or uninstalling the extension.
+  </p>
+
+  <h2>Changes to this policy</h2>
+  <p>
+    This policy may be updated if the extension's functionality or data handling
+    practices change. The latest version will always be available on this page.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    For questions about this privacy policy, contact:
+    alexey.gluhaniuk@moderation.quarks.tech
+  </p>
+</body>
+</html>
